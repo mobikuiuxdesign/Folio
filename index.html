@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="Cache-Control" content="no-transform">
+    <title data-vue-meta="true">Mobikdesign - UX-UI designer</title>
+    <link rel="manifest" href="manifest.json" crossorigin="use-credentials">
+    <meta data-vue-meta="true" name="apple-mobile-web-app-status-bar-style" content="#0066ff">
+    <meta data-vue-meta="true" name="application-name" content="Mobikdesign UX-UI designer with front-end development skills">
+    <meta data-vue-meta="true" name="msapplication-TileColor" content="#0066ff">
+    <meta data-vue-meta="true" name="theme-color" content="#0066ff">
+    <link data-vue-meta="true" rel="shortcut icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link data-vue-meta="true" rel="shortcut icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link data-vue-meta="true" rel="apple-touch-icon" type="image/png" sizes="180x180" href="img/apple-touch-icon.png">
+    <title>Mobikdesign - UX-UI designer</title>
+    <meta property="og:title" content="Mobikdesign - UX-UI designer">
+    <meta name="description" content="UI-UX designer with front-end development skills.">
+    <meta property="og:description" content="UI-UX designer with front-end development skills.">
+    <meta property="og:url" content="https://mobikdesign.com.ua/">
+    <meta property="og:locale" content="en">
+    <meta property="og:image" content="https://mobikdesign.com.ua/img/og_mobikdesign.jpg">
+    <style>
+*{box-sizing:border-box}
+html{height:100%}
+body{margin:0;font-family:sans-serif;font-size:100%;height:100%;text-align:center}
+h1,h2,h3{line-height:1.8;margin-bottom:16px;text-transform:uppercase}h1{font-size:4em;font-weight:700}.subtitle{font-size:1.6em;font-weight:normal;letter-spacing:.02em;margin:0}h2{font-size:1.6em}h3{font-size:1.3em}p{font-size:1em;line-height:1.6;margin-bottom:16px}
+.logo{width:64px;height:64px}
+section,footer{display:flex;flex-direction:column;flex-wrap:nowrap;justify-content:space-around;align-content:center;align-items:center;padding:48px 0;margin:0}
+footer{background-color:#000;text-align:center;color:#999}
+.hero{min-height:100vh;background:#06F url("img/mainbg.svg")no-repeat;background-size:cover;padding:32px 0;margin:0;color:#FFF}
+.maintitle::after{content:"";margin:32px auto;display:block;background:#FFF;width:40px;height:4px}.hero-links{display:flex;flex-wrap:nowrap;justify-content:space-between;align-items:stretch;max-width:64%;padding:0;margin:40px 0}.hero-links a{display:block;margin:0}
+.flex-wrap{display:flex;flex-direction:row;flex-wrap:wrap;justify-content:space-around;align-content:center;align-items:center;width:100%;max-width:1280px;padding:0 8px;margin:-16px -16px}
+.box-1,.inner-1{width:calc(100% - 16px)}.box-4,.inner-4{width:calc(25% - 16px)}.inner-1,.inner-2,.inner-3,.inner-4{align-self:stretch}.box-2-elevated-card{width:calc(50% - 16px);background:#FFF;box-shadow:0 16px 32px -16px rgba(0,0,0,0.24);padding:0 0 24px 0;margin:8px;align-self:stretch;text-align:center}
+.box-2-elevated-card img{width:100%;height:auto;vertical-align:middle}.card-title{display:block}.card-title::after{content:"";margin:24px auto;display:block;background:#CCC;width:32px;height:4px}.card-content,.card-bottom{align-self:flex-start;width:100%;padding:16px 16px 0 16px}h3.card-content,h4.card-content,.card-content p,.box-2-elevated-card a:link,.box-2-elevated-card a:visited{color:#000;text-decoration:none}
+
+@media not screen and (max-width: 800px){a:hover{transition:all .3s}.hero-links a:hover{opacity:.64;}.box-2-elevated-card a:hover{color:#06F;}.box-2-elevated-card:hover{box-shadow:0 16px 32px -16px rgba(0,0,0,0.72);}}
+@media(max-width:1024px){h1{font-size:3.6em}.subtitle{font-size:1.4em}.card-4{width:calc(33.333% - 16px);margin:8px;align-self:stretch}}
+@media(max-width:768px){h1{font-size:3.2em}.subtitle{font-size:1.4em}p{font-size:1.2em}a:hover{background:0;opacity:100}.flex-wrap{width:96%}.card-4,.box-4,.inner-4,.box-2-elevated-card{width:calc(100% - 16px)}}
+@media(max-width:480px){.hero{background:#06F;padding:32px 0 24px 0}.logo{width:48px;height:48px}h1{font-size:1.6em}.subtitle{font-size:.8em}}
+    </style>
+  </head>
+  <body>
+    <!-- Section -->
+    <section class="hero">
+      <div class="flex-wrap">
+        <div class="logo">
+          <a href="index.html">
+						<img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9Im5vbmUiIHZpZXdCb3g9IjAgMCA2NCA2NCI+CiAgPGRlZnMvPgogIDxwYXRoIGZpbGw9IiNGRkYiIGQ9Ik02NCAwSDB2NjRoNjRWMHoiLz4KICA8cGF0aCBmaWxsPSIjMDAwIiBkPSJNOSA3SDd2MmgyVjd6TTExIDdIOXYyaDJWN3pNMTMgN2gtMnYyaDJWN3pNMTUgN2gtMnYyaDJWN3pNMTcgN2gtMnYyaDJWN3pNMTkgN2gtMnYyaDJWN3pNMjEgN2gtMnYyaDJWN3pNMjUgN2gtMnYyaDJWN3pNMzEgN2gtMnYyaDJWN3pNMzMgN2gtMnYyaDJWN3pNMzUgN2gtMnYyaDJWN3pNMzcgN2gtMnYyaDJWN3pNNDUgN2gtMnYyaDJWN3pNNDcgN2gtMnYyaDJWN3pNNDkgN2gtMnYyaDJWN3pNNTEgN2gtMnYyaDJWN3pNNTMgN2gtMnYyaDJWN3pNNTUgN2gtMnYyaDJWN3pNNTcgN2gtMnYyaDJWN3pNOSA5SDd2MmgyVjl6TTIxIDloLTJ2MmgyVjl6TTI3IDloLTJ2MmgyVjl6TTI5IDloLTJ2MmgyVjl6TTQxIDloLTJ2MmgyVjl6TTQ1IDloLTJ2MmgyVjl6TTU3IDloLTJ2MmgyVjl6TTkgMTFIN3YyaDJ2LTJ6TTEzIDExaC0ydjJoMnYtMnpNMTUgMTFoLTJ2Mmgydi0yek0xNyAxMWgtMnYyaDJ2LTJ6TTIxIDExaC0ydjJoMnYtMnpNMjkgMTFoLTJ2Mmgydi0yek0zMyAxMWgtMnYyaDJ2LTJ6TTM1IDExaC0ydjJoMnYtMnpNMzcgMTFoLTJ2Mmgydi0yek0zOSAxMWgtMnYyaDJ2LTJ6TTQxIDExaC0ydjJoMnYtMnpNNDUgMTFoLTJ2Mmgydi0yek00OSAxMWgtMnYyaDJ2LTJ6TTUxIDExaC0ydjJoMnYtMnpNNTMgMTFoLTJ2Mmgydi0yek01NyAxMWgtMnYyaDJ2LTJ6TTkgMTNIN3YyaDJ2LTJ6TTEzIDEzaC0ydjJoMnYtMnpNMTUgMTNoLTJ2Mmgydi0yek0xNyAxM2gtMnYyaDJ2LTJ6TTIxIDEzaC0ydjJoMnYtMnpNMzMgMTNoLTJ2Mmgydi0yek0zNSAxM2gtMnYyaDJ2LTJ6TTM5IDEzaC0ydjJoMnYtMnpNNDEgMTNoLTJ2Mmgydi0yek00NSAxM2gtMnYyaDJ2LTJ6TTQ5IDEzaC0ydjJoMnYtMnpNNTEgMTNoLTJ2Mmgydi0yek01MyAxM2gtMnYyaDJ2LTJ6TTU3IDEzaC0ydjJoMnYtMnpNOSAxNUg3djJoMnYtMnpNMTMgMTVoLTJ2Mmgydi0yek0xNSAxNWgtMnYyaDJ2LTJ6TTE3IDE1aC0ydjJoMnYtMnpNMjEgMTVoLTJ2Mmgydi0yek0yNyAxNWgtMnYyaDJ2LTJ6TTMxIDE1aC0ydjJoMnYtMnpNMzUgMTVoLTJ2Mmgydi0yek0zNyAxNWgtMnYyaDJ2LTJ6TTQxIDE1aC0ydjJoMnYtMnpNNDUgMTVoLTJ2Mmgydi0yek00OSAxNWgtMnYyaDJ2LTJ6TTUxIDE1aC0ydjJoMnYtMnpNNTMgMTVoLTJ2Mmgydi0yek01NyAxNWgtMnYyaDJ2LTJ6TTkgMTdIN3YyaDJ2LTJ6TTIxIDE3aC0ydjJoMnYtMnpNMjkgMTdoLTJ2Mmgydi0yek0zMyAxN2gtMnYyaDJ2LTJ6TTM1IDE3aC0ydjJoMnYtMnpNMzcgMTdoLTJ2Mmgydi0yek00NSAxN2gtMnYyaDJ2LTJ6TTU3IDE3aC0ydjJoMnYtMnpNOSAxOUg3djJoMnYtMnpNMTEgMTlIOXYyaDJ2LTJ6TTEzIDE5aC0ydjJoMnYtMnpNMTUgMTloLTJ2Mmgydi0yek0xNyAxOWgtMnYyaDJ2LTJ6TTE5IDE5aC0ydjJoMnYtMnpNMjEgMTloLTJ2Mmgydi0yek0yNSAxOWgtMnYyaDJ2LTJ6TTI5IDE5aC0ydjJoMnYtMnpNMzMgMTloLTJ2Mmgydi0yek0zNyAxOWgtMnYyaDJ2LTJ6TTQxIDE5aC0ydjJoMnYtMnpNNDUgMTloLTJ2Mmgydi0yek00NyAxOWgtMnYyaDJ2LTJ6TTQ5IDE5aC0ydjJoMnYtMnpNNTEgMTloLTJ2Mmgydi0yek01MyAxOWgtMnYyaDJ2LTJ6TTU1IDE5aC0ydjJoMnYtMnpNNTcgMTloLTJ2Mmgydi0yek0yNSAyMWgtMnYyaDJ2LTJ6TTI5IDIxaC0ydjJoMnYtMnpNMzEgMjFoLTJ2Mmgydi0yek0zNSAyMWgtMnYyaDJ2LTJ6TTM3IDIxaC0ydjJoMnYtMnpNMzkgMjFoLTJ2Mmgydi0yek05IDIzSDd2Mmgydi0yek0xMSAyM0g5djJoMnYtMnpNMTUgMjNoLTJ2Mmgydi0yek0xNyAyM2gtMnYyaDJ2LTJ6TTIxIDIzaC0ydjJoMnYtMnpNMjcgMjNoLTJ2Mmgydi0yek0yOSAyM2gtMnYyaDJ2LTJ6TTMxIDIzaC0ydjJoMnYtMnpNMzMgMjNoLTJ2Mmgydi0yek0zOSAyM2gtMnYyaDJ2LTJ6TTQ1IDIzaC0ydjJoMnYtMnpNNTcgMjNoLTJ2Mmgydi0yek05IDI1SDd2Mmgydi0yek0xNSAyNWgtMnYyaDJ2LTJ6TTE3IDI1aC0ydjJoMnYtMnpNMjMgMjVoLTJ2Mmgydi0yek0yNSAyNWgtMnYyaDJ2LTJ6TTI3IDI1aC0ydjJoMnYtMnpNMzMgMjVoLTJ2Mmgydi0yek0zNSAyNWgtMnYyaDJ2LTJ6TTM3IDI1aC0ydjJoMnYtMnpNMzkgMjVoLTJ2Mmgydi0yek00NyAyNWgtMnYyaDJ2LTJ6TTQ5IDI1aC0ydjJoMnYtMnpNNTEgMjVoLTJ2Mmgydi0yek01MyAyNWgtMnYyaDJ2LTJ6TTU1IDI1aC0ydjJoMnYtMnpNMTMgMjdoLTJ2Mmgydi0yek0yMSAyN2gtMnYyaDJ2LTJ6TTI1IDI3aC0ydjJoMnYtMnpNMjkgMjdoLTJ2Mmgydi0yek0zMSAyN2gtMnYyaDJ2LTJ6TTM1IDI3aC0ydjJoMnYtMnpNMzkgMjdoLTJ2Mmgydi0yek00MSAyN2gtMnYyaDJ2LTJ6TTQ3IDI3aC0ydjJoMnYtMnpNNDkgMjdoLTJ2Mmgydi0yek01MSAyN2gtMnYyaDJ2LTJ6TTU3IDI3aC0ydjJoMnYtMnpNOSAyOUg3djJoMnYtMnpNMTkgMjloLTJ2Mmgydi0yek0yMyAyOWgtMnYyaDJ2LTJ6TTI1IDI5aC0ydjJoMnYtMnpNMjcgMjloLTJ2Mmgydi0yek0yOSAyOWgtMnYyaDJ2LTJ6TTQ3IDI5aC0ydjJoMnYtMnpNNDkgMjloLTJ2Mmgydi0yek01MSAyOWgtMnYyaDJ2LTJ6TTUzIDI5aC0ydjJoMnYtMnpNNTUgMjloLTJ2Mmgydi0yek01NyAyOWgtMnYyaDJ2LTJ6TTExIDMxSDl2Mmgydi0yek0xOSAzMWgtMnYyaDJ2LTJ6TTIxIDMxaC0ydjJoMnYtMnpNMjcgMzFoLTJ2Mmgydi0yek0zMyAzMWgtMnYyaDJ2LTJ6TTM5IDMxaC0ydjJoMnYtMnpNNDEgMzFoLTJ2Mmgydi0yek00NSAzMWgtMnYyaDJ2LTJ6TTQ3IDMxaC0ydjJoMnYtMnpNNTcgMzFoLTJ2Mmgydi0yek05IDMzSDd2Mmgydi0yek0xMyAzM2gtMnYyaDJ2LTJ6TTE3IDMzaC0ydjJoMnYtMnpNMjMgMzNoLTJ2Mmgydi0yek0yNSAzM2gtMnYyaDJ2LTJ6TTI3IDMzaC0ydjJoMnYtMnpNMzEgMzNoLTJ2Mmgydi0yek0zMyAzM2gtMnYyaDJ2LTJ6TTM1IDMzaC0ydjJoMnYtMnpNMzcgMzNoLTJ2Mmgydi0yek0zOSAzM2gtMnYyaDJ2LTJ6TTQxIDMzaC0ydjJoMnYtMnpNNDkgMzNoLTJ2Mmgydi0yek01NSAzM2gtMnYyaDJ2LTJ6TTkgMzVIN3YyaDJ2LTJ6TTExIDM1SDl2Mmgydi0yek0xNyAzNWgtMnYyaDJ2LTJ6TTIxIDM1aC0ydjJoMnYtMnpNMjMgMzVoLTJ2Mmgydi0yek0yNyAzNWgtMnYyaDJ2LTJ6TTM5IDM1aC0ydjJoMnYtMnpNNDEgMzVoLTJ2Mmgydi0yek00NSAzNWgtMnYyaDJ2LTJ6TTQ5IDM1aC0ydjJoMnYtMnpNNTEgMzVoLTJ2Mmgydi0yek01MyAzNWgtMnYyaDJ2LTJ6TTU1IDM1aC0ydjJoMnYtMnpNNTcgMzVoLTJ2Mmgydi0yek05IDM3SDd2Mmgydi0yek0xMyAzN2gtMnYyaDJ2LTJ6TTE3IDM3aC0ydjJoMnYtMnpNMjUgMzdoLTJ2Mmgydi0yek0yNyAzN2gtMnYyaDJ2LTJ6TTMzIDM3aC0ydjJoMnYtMnpNNDcgMzdoLTJ2Mmgydi0yek01MSAzN2gtMnYyaDJ2LTJ6TTUzIDM3aC0ydjJoMnYtMnpNNTcgMzdoLTJ2Mmgydi0yek05IDM5SDd2Mmgydi0yek0xNSAzOWgtMnYyaDJ2LTJ6TTE3IDM5aC0ydjJoMnYtMnpNMTkgMzloLTJ2Mmgydi0yek0yMSAzOWgtMnYyaDJ2LTJ6TTI1IDM5aC0ydjJoMnYtMnpNMjcgMzloLTJ2Mmgydi0yek0zMSAzOWgtMnYyaDJ2LTJ6TTMzIDM5aC0ydjJoMnYtMnpNMzUgMzloLTJ2Mmgydi0yek0zOSAzOWgtMnYyaDJ2LTJ6TTQxIDM5aC0ydjJoMnYtMnpNNDMgMzloLTJ2Mmgydi0yek00NSAzOWgtMnYyaDJ2LTJ6TTQ3IDM5aC0ydjJoMnYtMnpNNDkgMzloLTJ2Mmgydi0yek01MyAzOWgtMnYyaDJ2LTJ6TTU1IDM5aC0ydjJoMnYtMnpNMjUgNDFoLTJ2Mmgydi0yek0zNSA0MWgtMnYyaDJ2LTJ6TTQxIDQxaC0ydjJoMnYtMnpNNDkgNDFoLTJ2Mmgydi0yek01MyA0MWgtMnYyaDJ2LTJ6TTU1IDQxaC0ydjJoMnYtMnpNOSA0M0g3djJoMnYtMnpNMTEgNDNIOXYyaDJ2LTJ6TTEzIDQzaC0ydjJoMnYtMnpNMTUgNDNoLTJ2Mmgydi0yek0xNyA0M2gtMnYyaDJ2LTJ6TTE5IDQzaC0ydjJoMnYtMnpNMjEgNDNoLTJ2Mmgydi0yek0zMSA0M2gtMnYyaDJ2LTJ6TTQxIDQzaC0ydjJoMnYtMnpNNDUgNDNoLTJ2Mmgydi0yek00OSA0M2gtMnYyaDJ2LTJ6TTU3IDQzaC0ydjJoMnYtMnpNOSA0NUg3djJoMnYtMnpNMjEgNDVoLTJ2Mmgydi0yek0yNyA0NWgtMnYyaDJ2LTJ6TTI5IDQ1aC0ydjJoMnYtMnpNMzUgNDVoLTJ2Mmgydi0yek0zOSA0NWgtMnYyaDJ2LTJ6TTQxIDQ1aC0ydjJoMnYtMnpNNDkgNDVoLTJ2Mmgydi0yek01NSA0NWgtMnYyaDJ2LTJ6TTkgNDdIN3YyaDJ2LTJ6TTEzIDQ3aC0ydjJoMnYtMnpNMTUgNDdoLTJ2Mmgydi0yek0xNyA0N2gtMnYyaDJ2LTJ6TTIxIDQ3aC0ydjJoMnYtMnpNMjUgNDdoLTJ2Mmgydi0yek0yOSA0N2gtMnYyaDJ2LTJ6TTM3IDQ3aC0ydjJoMnYtMnpNMzkgNDdoLTJ2Mmgydi0yek00MSA0N2gtMnYyaDJ2LTJ6TTQzIDQ3aC0ydjJoMnYtMnpNNDUgNDdoLTJ2Mmgydi0yek00NyA0N2gtMnYyaDJ2LTJ6TTQ5IDQ3aC0ydjJoMnYtMnpNOSA0OUg3djJoMnYtMnpNMTMgNDloLTJ2Mmgydi0yek0xNSA0OWgtMnYyaDJ2LTJ6TTE3IDQ5aC0ydjJoMnYtMnpNMjEgNDloLTJ2Mmgydi0yek0yNSA0OWgtMnYyaDJ2LTJ6TTI5IDQ5aC0ydjJoMnYtMnpNMzEgNDloLTJ2Mmgydi0yek0zNSA0OWgtMnYyaDJ2LTJ6TTM3IDQ5aC0ydjJoMnYtMnpNMzkgNDloLTJ2Mmgydi0yek00MyA0OWgtMnYyaDJ2LTJ6TTQ1IDQ5aC0ydjJoMnYtMnpNNTUgNDloLTJ2Mmgydi0yek01NyA0OWgtMnYyaDJ2LTJ6TTkgNTFIN3YyaDJ2LTJ6TTEzIDUxaC0ydjJoMnYtMnpNMTUgNTFoLTJ2Mmgydi0yek0xNyA1MWgtMnYyaDJ2LTJ6TTIxIDUxaC0ydjJoMnYtMnpNMjcgNTFoLTJ2Mmgydi0yek0zMSA1MWgtMnYyaDJ2LTJ6TTMzIDUxaC0ydjJoMnYtMnpNMzkgNTFoLTJ2Mmgydi0yek00MSA1MWgtMnYyaDJ2LTJ6TTQzIDUxaC0ydjJoMnYtMnpNNDkgNTFoLTJ2Mmgydi0yek01MSA1MWgtMnYyaDJ2LTJ6TTUzIDUxaC0ydjJoMnYtMnpNNTUgNTFoLTJ2Mmgydi0yek01NyA1MWgtMnYyaDJ2LTJ6TTkgNTNIN3YyaDJ2LTJ6TTIxIDUzaC0ydjJoMnYtMnpNMjUgNTNoLTJ2Mmgydi0yek0yOSA1M2gtMnYyaDJ2LTJ6TTM3IDUzaC0ydjJoMnYtMnpNNDMgNTNoLTJ2Mmgydi0yek00NyA1M2gtMnYyaDJ2LTJ6TTQ5IDUzaC0ydjJoMnYtMnpNNTMgNTNoLTJ2Mmgydi0yek01NSA1M2gtMnYyaDJ2LTJ6TTU3IDUzaC0ydjJoMnYtMnpNOSA1NUg3djJoMnYtMnpNMTEgNTVIOXYyaDJ2LTJ6TTEzIDU1aC0ydjJoMnYtMnpNMTUgNTVoLTJ2Mmgydi0yek0xNyA1NWgtMnYyaDJ2LTJ6TTE5IDU1aC0ydjJoMnYtMnpNMjEgNTVoLTJ2Mmgydi0yek0yNSA1NWgtMnYyaDJ2LTJ6TTMzIDU1aC0ydjJoMnYtMnpNMzcgNTVoLTJ2Mmgydi0yek00MSA1NWgtMnYyaDJ2LTJ6TTQ1IDU1aC0ydjJoMnYtMnpNNTEgNTVoLTJ2Mmgydi0yek01NyA1NWgtMnYyaDJ2LTJ6Ii8+Cjwvc3ZnPgo=" alt="Back to home page">
+          </a>
+        </div>
+        <h1 class="inner-1 maintitle ">I design and develop</h1>
+        <h1 class="inner-1 subtitle">UI-UX designer with front-end development skills</h1>
+        <div class="inner-4 hero-links">
+          <a href="https://www.behance.net/mobikdesign" target="_blank" rel="noopener">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='48' height='48' viewBox='0 0 48 48' fill='none'%3E%3Cpath d='M9 48H39V46H9V48ZM39 48C43.9706 48 48 43.9706 48 39H46C46 42.866 42.866 46 39 46V48ZM48 39V9H46V39H48ZM48 9C48 4.02944 43.9706 0 39 0V2C42.866 2 46 5.134 46 9H48ZM39 0H9V2H39V0ZM9 0C4.02944 0 0 4.02944 0 9H2C2 5.134 5.134 2 9 2V0ZM0 9V39H2V9H0ZM0 39C0 43.9706 4.02944 48 9 48V46C5.134 46 2 42.866 2 39H0Z' fill='white'/%3E%3Cpath d='M26.9545 16.6364H35.3258V18.2727H26.9545V16.6364ZM31.1532 19.9091C32.9757 19.9091 34.4058 20.5313 35.4435 21.7756C36.4812 23.0199 37 24.5795 37 26.4545H26.9545C26.9545 27.9034 27.3077 29.0838 28.014 29.9957C28.7203 30.9077 29.7624 31.3636 31.1402 31.3636C32.2389 31.3636 33.1196 31.0653 33.7823 30.4688C34.445 29.8722 34.8985 29.0795 35.1426 28.0909H36.843C36.564 29.5568 35.9318 30.7415 34.9464 31.6449C33.9611 32.5483 32.6923 33 31.1402 33C29.3264 33 27.8963 32.3778 26.8499 31.1335C25.8035 29.8892 25.2803 28.3295 25.2803 26.4545C25.2803 24.5795 25.8035 23.0199 26.8499 21.7756C27.8963 20.5313 29.3307 19.9091 31.1532 19.9091ZM35.1426 24.8182C34.9159 23.8125 34.4668 23.0156 33.7954 22.4276C33.124 21.8395 32.2432 21.5455 31.1532 21.5455C30.0632 21.5455 29.1825 21.8395 28.5111 22.4276C27.8396 23.0156 27.3818 23.8125 27.1377 24.8182H35.1426ZM24.3939 28.0909C24.3939 29.4375 23.8489 30.5923 22.7589 31.5554C21.6689 32.5185 20.3479 33 18.7957 33H11V15H17.8278C19.1707 15 20.3217 15.4773 21.2809 16.4318C22.2401 17.3864 22.7197 18.5455 22.7197 19.9091C22.7197 21.2898 22.275 22.483 21.3855 23.4886C22.2401 23.8466 22.9551 24.4474 23.5307 25.2912C24.1062 26.1349 24.3939 27.0682 24.3939 28.0909ZM17.9062 16.6364H12.6742V23.1818H17.9062C18.7783 23.1818 19.5195 22.8622 20.1299 22.223C20.7403 21.5838 21.0455 20.8125 21.0455 19.9091C21.0455 19.0057 20.7403 18.2344 20.1299 17.5952C19.5195 16.956 18.7783 16.6364 17.9062 16.6364ZM18.9527 24.8182H12.6742V31.3636H18.9527C19.9816 31.3636 20.8667 31.044 21.6079 30.4048C22.3491 29.7656 22.7197 28.9943 22.7197 28.0909C22.7197 27.1875 22.3491 26.4162 21.6079 25.777C20.8667 25.1378 19.9816 24.8182 18.9527 24.8182Z' fill='white'/%3E%3C/svg%3E" alt="Link to my Behance profile">
+          </a>
+          <a href="https://dribbble.com/Mobik" target="_blank" rel="noopener">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='48' height='48' viewBox='0 0 48 48' fill='none'%3E%3Cpath d='M24 11C23.1198 11 22.2607 11.0846 21.4229 11.2539C20.585 11.4232 19.7767 11.6771 18.998 12.0156L18.8457 12.0918C16.5098 13.1074 14.6182 14.6901 13.1709 16.8398C11.7236 18.9896 11 21.3763 11 24C11 25.7604 11.3428 27.4404 12.0283 29.04C12.7139 30.6396 13.6406 32.0234 14.8086 33.1914C15.9766 34.3594 17.3604 35.2861 18.96 35.9717C20.5596 36.6572 22.2396 37 24 37C25.7604 37 27.4404 36.6572 29.04 35.9717C30.6396 35.2861 32.0234 34.3594 33.1914 33.1914C34.3594 32.0234 35.2861 30.6396 35.9717 29.04C36.6572 27.4404 37 25.7604 37 24C37 22.5951 36.7799 21.2324 36.3398 19.9121C35.8997 18.5918 35.2777 17.3984 34.4736 16.332C33.6696 15.2656 32.7344 14.3304 31.668 13.5264C30.6016 12.7223 29.4082 12.1003 28.0879 11.6602C26.7676 11.2201 25.4049 11 24 11ZM35.375 24C35.375 24.0339 35.3708 24.0846 35.3623 24.1523C35.3538 24.2201 35.3496 24.2624 35.3496 24.2793C32.7259 23.5684 29.9668 23.5345 27.0723 24.1777C26.9876 23.9746 26.8988 23.7757 26.8057 23.5811C26.7126 23.3864 26.6195 23.1875 26.5264 22.9844C26.4333 22.7812 26.3359 22.5781 26.2344 22.375C26.1328 22.1719 26.0228 21.9688 25.9043 21.7656C25.9043 21.7487 25.8916 21.7191 25.8662 21.6768C25.8408 21.6344 25.8197 21.5964 25.8027 21.5625C27.6647 20.8516 29.1247 20.0391 30.1826 19.125C31.2406 18.2109 32.0065 17.3138 32.4805 16.4336C34.3932 18.6003 35.3581 21.1224 35.375 24ZM31.2617 15.2402C31.1602 15.4772 31.0374 15.7142 30.8936 15.9512C30.7497 16.1882 30.5127 16.4928 30.1826 16.8652C29.8525 17.2376 29.4759 17.5973 29.0527 17.9443C28.6296 18.2913 28.0667 18.6637 27.3643 19.0615C26.6618 19.4593 25.8874 19.8105 25.041 20.1152C23.4499 17.2207 21.9688 14.9017 20.5977 13.1582C21.6979 12.8027 22.832 12.625 24 12.625C24.8971 12.625 25.7816 12.7308 26.6533 12.9424C27.5251 13.154 28.3418 13.4544 29.1035 13.8438C29.8652 14.2331 30.5846 14.6986 31.2617 15.2402ZM19.0234 13.793C19.3281 14.1484 19.6582 14.5716 20.0137 15.0625C20.3691 15.5534 20.8685 16.3109 21.5117 17.335C22.1549 18.359 22.8066 19.4635 23.4668 20.6484C22.2819 21.0039 21.097 21.2874 19.9121 21.499C18.7272 21.7106 17.665 21.8376 16.7256 21.8799C15.7861 21.9222 15.0244 21.9391 14.4404 21.9307C13.8564 21.9222 13.319 21.901 12.8281 21.8672C13.1667 20.0898 13.8861 18.4945 14.9863 17.0811C16.0866 15.6676 17.4323 14.5716 19.0234 13.793ZM12.625 24C12.625 23.8477 12.6335 23.6699 12.6504 23.4668C13.3275 23.5514 14.0723 23.5938 14.8848 23.5938C17.9824 23.5938 21.1055 23.0944 24.2539 22.0957C24.2878 22.1634 24.3258 22.2354 24.3682 22.3115C24.4105 22.3877 24.4486 22.4596 24.4824 22.5273C24.6517 22.8659 24.821 23.2087 24.9902 23.5557C25.1595 23.9027 25.3203 24.2539 25.4727 24.6094C25.3372 24.6432 25.1976 24.6855 25.0537 24.7363L24.6221 24.8887L24.2031 25.0537L23.7842 25.2314L23.3398 25.4219C22.2565 25.9128 21.2578 26.4671 20.3438 27.085C19.4297 27.7028 18.6722 28.3206 18.0713 28.9385C17.4704 29.5563 16.9964 30.0853 16.6494 30.5254C16.3024 30.9655 16.0104 31.3971 15.7734 31.8203C14.7747 30.7878 14.0003 29.5986 13.4502 28.2529C12.9001 26.9072 12.625 25.4896 12.625 24ZM16.9922 32.9375C17.1615 32.6328 17.3773 32.2985 17.6396 31.9346C17.902 31.5706 18.304 31.084 18.8457 30.4746C19.3874 29.8652 20.111 29.2389 21.0166 28.5957C21.9222 27.9525 22.9251 27.3854 24.0254 26.8945C24.2454 26.793 24.474 26.6956 24.7109 26.6025C24.9479 26.5094 25.1807 26.4206 25.4092 26.3359C25.6377 26.2513 25.8704 26.1751 26.1074 26.1074C27.2415 29.0189 27.9863 31.8203 28.3418 34.5117C27.6647 34.7826 26.9622 34.9941 26.2344 35.1465C25.5065 35.2988 24.7617 35.375 24 35.375C21.3932 35.375 19.0573 34.5625 16.9922 32.9375ZM29.8906 33.7246C29.5013 31.1178 28.7734 28.4434 27.707 25.7012C28.5703 25.5319 29.4378 25.4303 30.3096 25.3965C31.1813 25.3626 31.9515 25.3838 32.6201 25.46C33.2887 25.5361 33.8135 25.6123 34.1943 25.6885C34.5752 25.7646 34.9095 25.8366 35.1973 25.9043C35.0111 27.0046 34.6725 28.0456 34.1816 29.0273C33.6908 30.0091 33.0814 30.8978 32.3535 31.6934C31.6257 32.4889 30.8047 33.166 29.8906 33.7246Z' fill='white'/%3E%3Cpath d='M9 48H39V46H9V48ZM39 48C43.9706 48 48 43.9706 48 39H46C46 42.866 42.866 46 39 46V48ZM48 39V9H46V39H48ZM48 9C48 4.02944 43.9706 0 39 0V2C42.866 2 46 5.134 46 9H48ZM39 0H9V2H39V0ZM9 0C4.02944 0 0 4.02944 0 9H2C2 5.134 5.134 2 9 2V0ZM0 9V39H2V9H0ZM0 39C0 43.9706 4.02944 48 9 48V46C5.134 46 2 42.866 2 39H0Z' fill='white'/%3E%3C/svg%3E" alt="Link to my Dribbble profile">
+          </a>
+          <a href="mailto:mobikdesign@gmail.com" target="_blank" rel="noopener">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='48' height='48' viewBox='0 0 48 48' fill='none'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M9 16C9 12.6863 11.6863 10 15 10H33C36.3137 10 39 12.6863 39 16H37C37 13.7909 35.2092 12 33 12H15C12.7909 12 11 13.7909 11 16H9ZM9 48H39C43.9706 48 48 43.9706 48 39V9C48 4.02944 43.9706 0 39 0H9C4.02944 0 0 4.02944 0 9V39C0 43.9706 4.02944 48 9 48ZM39 46H9C5.134 46 2 42.866 2 39V9C2 5.134 5.134 2 9 2H39C42.866 2 46 5.134 46 9V39C46 42.866 42.866 46 39 46Z' fill='white'/%3E%3Cpath d='M37 32H39V16H37V19L24 25L11 19V16H9V19V32H11V21L24 27L37 21V32Z' fill='white'/%3E%3Cpath d='M15 38V36C12.7909 36 11 34.2092 11 32H9C9 35.3137 11.6863 38 15 38Z' fill='white'/%3E%3Cpath d='M15 36V38H33V36H15Z' fill='white'/%3E%3Cpath d='M39 32H37C37 34.2092 35.2091 36 33 36V38C36.3137 38 39 35.3137 39 32Z' fill='white'/%3E%3C/svg%3E" alt="Mail me">
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- End section -->
+    <section>
+      <div class="flex-wrap">
+          <h2 class="inner-1">Latest works</h2>
+        <div class="box-2-elevated-card">
+          <a href="https://pwa.demo.mobikdesign.com.ua/" target="_blank" rel="noopener">
+            <picture>
+              <source media="(max-width: 375px)" srcset="img/05_352x264.webp" type="image/webp">
+              <source media="(max-width: 480px)" srcset="img/05_416x312.webp" type="image/webp">
+              <source media="(max-width: 480px)" srcset="img/05_416x312.png" type="image/png">
+              <source media="(min-width: 768px) and (max-width: 2560px)" srcset="img/05_800x600.webp" type="image/webp">
+              <img src="img/05_352x264.webp" alt="PWA ready boilerplate">
+            </picture>
+            <div class="card-content">
+              <h3 class="card-title">PWA ready hight-speed page</h3>
+              <p>PWA ready hight-perfomance html/css boilerplate</p>
+            </div>
+          </a>
+        </div>
+        <div class="box-2-elevated-card">
+          <a href="https://dribbble.com/shots/8918816-Coupler-Business-Web-app-beta" target="_blank" rel="noopener">
+            <picture>
+              <source media="(max-width: 375px)" srcset="img/01_352x264.webp" type="image/webp">
+              <source media="(max-width: 480px)" srcset="img/01_416x312.webp" type="image/webp">
+              <source media="(max-width: 480px)" srcset="img/01_416x312.png" type="image/png">
+              <source media="(min-width: 768px) and (max-width: 2560px)" srcset="img/01_800x600.webp" type="image/webp">
+              <img src="img/01_352x264.webp" alt="Coupler business web cover picture">
+            </picture>
+            <div class="card-content">
+              <h3 class="card-title">Coupler Business Web</h3>
+              <p>Coupler Business Web - analytics and business management app</p>
+            </div>
+          </a>
+        </div>
+        <div class="box-2-elevated-card">
+          <a href="https://dribbble.com/shots/7887127-Coupler-connect-marketplace-of-services-IOS-app-night-mode" target="_blank" rel="noopener">
+            <picture>
+              <source media="(max-width: 375px)" srcset="img/02_352x264.webp" type="image/webp">
+              <source media="(max-width: 480px)" srcset="img/02_416x312.webp" type="image/webp">
+              <source media="(max-width: 480px)" srcset="img/02_416x312.png" type="image/png">
+              <source media="(min-width: 768px) and (max-width: 2560px)" srcset="img/02_800x600.webp" type="image/webp">
+              <img src="img/02_352x264.webp" alt="Coupler connect cover picture">
+            </picture>
+            <div class="card-content">
+              <h3 class="card-title">Coupler connect</h3>
+              <p>Marketplace of services mobile app for IOS</p>
+            </div>
+          </a>
+        </div>
+        <div class="box-2-elevated-card">
+          <a href="https://dribbble.com/shots/10757983-Landing-page-for-HACKATHONHUB" target="_blank" rel="noopener">
+            <picture>
+              <source media="(max-width: 375px)" srcset="img/03_352x264.webp" type="image/webp">
+              <source media="(max-width: 480px)" srcset="img/03_416x312.webp" type="image/webp">
+              <source media="(max-width: 480px)" srcset="img/03_416x312.png" type="image/png">
+              <source media="(min-width: 768px) and (max-width: 2560px)" srcset="img/03_800x600.webp" type="image/webp">
+              <img src="img/03_352x264.webp" alt="Hub for hackathon`s cover picture">
+            </picture>
+            <div class="card-content">
+              <h3 class="card-title">Hub for hackathon`s</h3>
+              <p>Hub for hackathon`s landing page</p>
+            </div>
+          </a>
+        </div>
+        <div class="box-2-elevated-card">
+          <a href="https://dribbble.com/shots/7885848-Coupler-client-IOS-app-part-II" target="_blank" rel="noopener">
+            <picture>
+              <source media="(max-width: 375px)" srcset="img/04_352x264.webp" type="image/webp">
+              <source media="(max-width: 480px)" srcset="img/04_416x312.webp" type="image/webp">
+              <source media="(max-width: 480px)" srcset="img/04_416x312.png" type="image/png">
+              <source media="(min-width: 768px) and (max-width: 2560px)" srcset="img/04_800x600.webp" type="image/webp">
+              <img src="img/04_352x264.webp" alt="Coupler client IOS cover picture">
+            </picture>
+            <div class="card-content">
+              <h3 class="card-title">Coupler client IOS</h3>
+              <p>Service search mobile app UI design</p>
+            </div>
+          </a>
+        </div>
+        <div class="box-2-elevated-card">
+          <a href="https://www.behance.net/gallery/57911823/Card-2-card-money-transfer-Part-of-new-fintech-project" target="_blank" rel="noopener">
+            <picture>
+              <source media="(max-width: 375px)" srcset="img/06_352x264.webp" type="image/webp">
+              <source media="(max-width: 480px)" srcset="img/06_416x312.webp" type="image/webp">
+              <source media="(max-width: 480px)" srcset="img/06_416x312.png" type="image/png">
+              <source media="(min-width: 768px) and (max-width: 2560px)" srcset="img/06_800x600.webp" type="image/webp">
+              <img src="img/06_352x264.webp" alt="Card to card money transfer page">
+            </picture>
+            <div class="card-content">
+              <h3 class="card-title">Fintech web service</h3>
+              <p>Card to card money transfer</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer>
+      <p class="inner-1"><small>© 2020 Mobikdesign. All rights reserved</small></p>
+    </footer>
+    <script> if ('serviceWorker' in navigator) {navigator.serviceWorker.register('sw.js', {updateViaCache: 'none',});}</script>
+  </body>
+</html>
